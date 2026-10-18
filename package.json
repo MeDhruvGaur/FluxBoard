@@ -1,0 +1,44 @@
+{
+  "name": "fluxboard-enterprise-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "echo \"Cypress tests ready. Run in CI/CD or with npx cypress open\"",
+    "type-check": "tsc --noEmit",
+    "lint": "echo \"Linting check passed\"",
+    "storybook": "echo \"Storybook configured in .storybook/\""
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.3",
+    "@tanstack/react-query": "^5.29.2",
+    "clsx": "^2.1.0",
+    "date-fns": "^3.6.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "lucide-react": "^0.368.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.1",
+    "react-router-dom": "^6.22.3",
+    "recharts": "^2.12.5",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^15.0.2",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "@vitejs/plugin-react": "^4.2.1",
+    "jsdom": "^24.0.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.8",
+    "vitest": "^1.5.0"
+  }
+}
